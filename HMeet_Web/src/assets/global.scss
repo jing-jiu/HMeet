@@ -1,0 +1,71 @@
+@font-face {
+    font-family: '汉仪仿宋简';
+    src: url('./汉仪仿宋简.ttf');
+}
+.text-center {
+    text-align: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-around {
+    align-content: space-around;
+}
+
+.a-between {
+    align-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flow-column {
+    display: flex;
+    flex-flow: column;
+}
+
+.popContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, .7);
+}
+
+.button {
+    height: 6%;
+    margin: 0 auto;
+    // outline: none;
+    // border-radius: 10px;
+    // border: none;
+    // color: white;
+    // background:rgb(64,158,255);
+}
+
+.x-auto {
+    margin: 0 auto;
+}
+
+.auto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
